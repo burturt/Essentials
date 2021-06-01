@@ -77,14 +77,6 @@ commands:
     description: Opens up a cartography table.
     usage: /<command>
     aliases: [ecartographytable, carttable, ecarttable]
-  clearinventory:
-    description: Clear all items in your inventory.
-    usage: /<command> [player|*] [item[:<data>]|*|**] [amount]
-    aliases: [ci,eci,clean,eclean,clear,eclear,clearinvent,eclearinvent,eclearinventory]
-  clearinventoryconfirmtoggle:
-    description: Toggles whether you are prompted to confirm inventory clears.
-    usage: /<command>
-    aliases: [eclearinventoryconfirmtoggle, clearinventoryconfirmoff, eclearinventoryconfirmoff, clearconfirmoff, eclearconfirmoff, clearconfirmon, eclearconfirmon, clearconfirm, eclearconfirm]
   condense:
     description: Condenses items into a more compact blocks.
     usage: /<command> [itemname]
@@ -140,10 +132,6 @@ commands:
     description: Reloads essentials.
     usage: /<command>
     aliases: [eessentials, ess, eess, essversion]
-  exp:
-    description: Give, set, reset, or look at a players experience.
-    usage: /<command> [reset|show|set|give] [playername [amount]]
-    aliases: [eexp,xp]
   ext:
     description: Extinguish players.
     usage: /<command> [player]
@@ -164,10 +152,6 @@ commands:
     description: Allows you to modify a stack of fireworks.
     usage: /<command> <<meta param>|power [amount]|clear|fire [amount]>
     aliases: [efirework]
-  gamemode:
-    description: Change player gamemode.
-    usage: /<command> <survival|creative|adventure|spectator> [player]
-    aliases: [adventure,eadventure,adventuremode,eadventuremode,creative,ecreative,eecreative,creativemode,ecreativemode,egamemode,gm,egm,gma,egma,gmc,egmc,gms,egms,gmt,egmt,survival,esurvival,survivalmode,esurvivalmode,gmsp,sp,egmsp,spec,spectator]
   gc:
     description: Reports memory, uptime and tick info.
     usage: /<command>
@@ -176,10 +160,6 @@ commands:
     description: Get your current coordinates or those of a player.
     usage: /<command> [player]
     aliases: [coords,egetpos,position,eposition,whereami,ewhereami,getlocation,egetlocation,getloc,egetloc]
-  give:
-    description: Give a player an item.
-    usage: /<command> <player> <item|numeric> [amount [itemmeta...]]
-    aliases: [egive]
   god:
     description: Enables your godly powers.
     usage: /<command> [player] [on|off]
@@ -196,14 +176,6 @@ commands:
     description: Heals you or the given player.
     usage: /<command> [player]
     aliases: [eheal]
-  help:
-    description: Views a list of available commands.
-    usage: /<command> [search term] [page]
-    aliases: [ehelp]
-  helpop:
-    description: Message online admins.
-    usage: /<command> <message>
-    aliases: [ac,eac,amsg,eamsg,ehelpop]
   home:
     description: Teleport to your home.
     usage: /<command> [player:][name]
@@ -252,10 +224,6 @@ commands:
     description: Kicks all players off the server except the issuer.
     usage: /<command> [reason]
     aliases: [ekickall]
-  kill:
-    description: Kills specified player.
-    usage: /<command> <player>
-    aliases: [ekill]
   kit:
     description: Obtains the specified kit or views all available kits.
     usage: /<command> [kit] [player]
@@ -472,14 +440,6 @@ commands:
     description: Temporarily ban an IP Address.
     usage: /<command> <playername> <datediff> [reason]
     aliases: [etempbanip]
-  thunder:
-    description: Enable/disable thunder.
-    usage: /<command> <true/false> [duration]
-    aliases: [ethunder]
-  time:
-    description: Display/Change the world time. Defaults to current world.
-    usage: /<command> [set|add] [day|night|dawn|17:30|4pm|4000ticks] [worldname|all]
-    aliases: [day,eday,night,enight,etime]
   togglejail:
     description: Jails/Unjails a player, TPs them to the jail specified.
     usage: /<command> <player> <jailname> [datediff]
@@ -488,10 +448,6 @@ commands:
     description: Teleport to the highest block at your current position.
     usage: /<command>
     aliases: [etop]
-  tp:
-    description: Teleport to a player.
-    usage: /<command> <player> [otherplayer]
-    aliases: [tele,etele,teleport,eteleport,etp,tp2p,etp2p]
   tpa:
     description: Request to teleport to the specified player.
     usage: /<command> <player>
