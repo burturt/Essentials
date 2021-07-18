@@ -13,10 +13,6 @@ commands:
     description: Marks you as away-from-keyboard.
     usage: /<command> [player/message...]
     aliases: [eafk,away,eaway]
-  antioch:
-    description: 'A little surprise for operators.'
-    usage: /<command> [message]
-    aliases: [eantioch,grenade,egrenade,tnt,etnt]
   anvil:
     description: Opens up an Anvil.
     usage: /<command>
@@ -25,10 +21,6 @@ commands:
     description: Teleports you to your location prior to tp/spawn/warp.
     usage: /<command> [player]
     aliases: [eback,return,ereturn]
-  backup:
-    description: Runs the backup if configured.
-    usage: /<command>
-    aliases: [ebackup]
   balance:
     description: States the current balance of a player.
     usage: /<command> [player]
@@ -37,14 +29,6 @@ commands:
     description: Gets the top balance values.
     usage: /<command> [page]
     aliases: [ebalancetop,baltop,ebaltop]
-  ban:
-    description: Bans a player.
-    usage: /<command> <player> [reason]
-    aliases: [eban]
-  banip:
-    description: Bans an IP address.
-    usage: /<command> <address> [reason]
-    aliases: [ebanip]
   beezooka:
     description: Throw an exploding bee at your opponent.
     usage: /<command>
@@ -220,10 +204,6 @@ commands:
     description: Jumps to the nearest block in the line of sight.
     usage: /<command>
     aliases: [j,ej,ejump,jumpto,ejumpto]
-  kick:
-    description: Kicks a specified player with a reason.
-    usage: /<command> <player> [reason]
-    aliases: [ekick]
   kickall:
     description: Kicks all players off the server except the issuer.
     usage: /<command> [reason]
@@ -344,10 +324,6 @@ commands:
     description: Displays the username of a user based on nick.
     usage: /<command> <nickname>
     aliases: [erealname]
-  recipe:
-    description: Displays how to craft items.
-    usage: /<command> <item> [number]
-    aliases: [formula,eformula,method,emethod,erecipe,recipes,erecipes]
   remove:
     description: Removes entities in your world.
     usage: /<command> <all|tamed|named|drops|arrows|boats|minecarts|xp|paintings|itemframes|endercrystals|monsters|animals|ambient|mobs|[mobType]> [radius|world]
