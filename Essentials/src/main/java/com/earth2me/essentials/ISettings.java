@@ -275,6 +275,10 @@ public interface ISettings extends IConf {
 
     String getCustomQuitMessage();
 
+    String getCustomNewUsernameMessage();
+
+    boolean isCustomNewUsernameMessage();
+
     boolean isCustomServerFullMessage();
 
     boolean isNotifyNoNewMail();
@@ -327,6 +331,8 @@ public interface ISettings extends IConf {
 
     boolean isPastebinCreateKit();
 
+    boolean isUseBetterKits();
+
     boolean isAllowBulkBuySell();
 
     boolean isAllowSellNamedItems();
@@ -378,6 +384,8 @@ public interface ISettings extends IConf {
     boolean isRespawnAtBed();
 
     boolean isUpdateCheckEnabled();
+
+    boolean showZeroBaltop();
 
     enum KeepInvPolicy {
         KEEP,
